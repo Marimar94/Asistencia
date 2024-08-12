@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5; /* Gris claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    border: 1px solid #e0e0e0; /* Borde ligero para definición */
+    max-width: 400px; /* Ancho máximo del formulario */
+    width: 100%;
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+h2 {
+    color: #13357B; /* Azul marino */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 15px;
+    color: #555;
+    font-weight: bold; /* Negrita */
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="password"] {
+    width: calc(100% - 22px); /* Ajusta el ancho para el padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="password"]:focus {
+    border-color: #13357B; /* Azul marino */
+    outline: none;
+    box-shadow: 0 0 5px rgba(19, 53, 123, 0.3);
+}
+
+button {
+    background-color: #13357B; /* Azul marino */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0e2a61; /* Azul marino más oscuro */
+}
